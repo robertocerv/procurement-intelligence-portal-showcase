@@ -22,6 +22,14 @@ The portal acts as a **read-only intelligence layer on top of the existing ERP**
 
 ![To-Be architecture](diagrams/to-be-hld.png)
 
+## Screenshots
+
+| Dashboard | AI-assisted analysis |
+|---|---|
+| ![Dashboard](screenshots/dashboard.png) | ![AI-assisted analysis](screenshots/analysis.png) |
+
+More screenshots (High Runner tooling, Max/Min reorder, OTD tracking, proforma invoices) are in the [full case study](Procurement-Intelligence-Portal-Case-Study.md#screenshots).
+
 ## Tech stack
 
 .NET 8 / ASP.NET Core MVC · SQL Server · Entity Framework Core · Generative AI (API) · Role-based access control (RBAC)
@@ -36,6 +44,7 @@ The portal acts as a **read-only intelligence layer on top of the existing ERP**
 ## Full case study
 
 📄 [Read the full case study](Procurement-Intelligence-Portal-Case-Study.md) — business context, requirements, security, detailed results, and lessons learned.
+📐 [Read the full arc42 architecture document](arc42/procurement-intelligence-portal-arc42_en.md)
 
 ---
 

@@ -250,10 +250,52 @@ As Internal Solution Architect, I independently led both the architecture defini
 
 ---
 
+## Screenshots
+
+**Dashboard & AI-assisted analysis**
+
+| Main dashboard | AI-assisted analysis catalog |
+|---|---|
+| ![Dashboard](screenshots/dashboard.png) | ![AI-assisted analysis](screenshots/analysis.png) |
+
+Central module launcher, and the catalog of AI-assisted analyses (daily action plan, shortage-risk detection, High Runner planning, purchase-order triage, manufacturing feasibility).
+
+**Sourcing & reorder analysis**
+
+| Max/Min reorder module | High Runner tooling purchase module |
+|---|---|
+| ![Max/Min](screenshots/max-min.png) | ![High Runner](screenshots/high-runner.png) |
+
+Automated reorder-point calculation across the full item catalog, and the specialized module for high-rotation tooling purchases by supplier.
+
+**AI-assisted planning**
+
+![AI High Runner plan](screenshots/IA-high-runner.png)
+
+The AI engine determines which critical items will run out of stock, whether an open purchase order will arrive in time, and what action to take for each one.
+
+**Operational tracking**
+
+| Weekly Operations | OTD tracking meeting |
+|---|---|
+| ![Weekly Operations](screenshots/ops-sem.png) | ![OTD meeting](screenshots/OTD.png) |
+
+Weekly material-explosion validation for the production plan, and the exception-case tracker used in the operational tracking meeting.
+
+**Follow-up & documents**
+
+| Follow-up module | High Runner follow-up view | Proforma invoice |
+|---|---|---|
+| ![Follow-up dashboard](screenshots/seguimiento-dashboard.png) | ![High Runner follow-up](screenshots/seg-high-runner.png) | ![Proforma invoice](screenshots/prof-inv.png) |
+
+The follow-up module's sub-modules (High Runner, general POs, Max/Min, special treatments, requests), a per-item inventory-days-of-cover view against open purchase orders, and automated proforma-invoice generation by PO number.
+
+---
+
 ## Project Resources
 
 **Case Study:** Web Portfolio
-**Architecture:** Internal diagram / documentation
+**Architecture:** [arc42/procurement-intelligence-portal-arc42_en.md](arc42/procurement-intelligence-portal-arc42_en.md)
 **Repository:** Not publicly available
 **Demo:** Not publicly available
 
